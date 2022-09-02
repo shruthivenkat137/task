@@ -1,0 +1,187 @@
+<div class="bg">
+    <div class="content">
+      <div class="header">
+        <div class="row">
+        <h2 class="name">{{ resume.name }}</h2>
+        <p class="title1">{{ resume.jobTitle }}</p>
+      </div>
+      <div class="about">
+        
+            
+<p>{{resume.about}}</p>
+      </div>
+        
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-4">
+              
+              <div class="contact rcont1">
+                <p><i class="fa fa-envelope"></i><br>{{ resume.contact.email }}</p>
+                <p><i class="fa fa-map-marker"></i><br>{{ resume.contact.location }}</p>
+               
+                <p><i class="fa fa-mobile"></i><br>{{ resume.contact.mobile }}</p>
+                <p><i class="fa fa-linkedin"></i><br>{{resume.contact.linkedin }} </p>
+                <p><i class="fa fa-github"></i><br> {{ resume.contact.github }}</p>
+            </div>
+<br><br>
+            <div class="rcont2">
+              <div class="skills">
+                <h5 class="title1">SKILLS</h5>
+                <div class="row ">
+                <div class="sbox">{{resume.skills.skill1}} </div>
+                <div class="sbox">{{resume.skills.skill2}} </div>
+                <div class="sbox">{{resume.skills.skill3}} </div>
+                <div class="sbox ">{{resume.skills.skill4}} </div>
+                <div class="sbox ">{{resume.skills.skill5}} </div>
+                <div class="sbox ">{{resume.skills.skill6}} </div>
+                <div class="sbox ">{{resume.skills.skill7}} </div>
+                <div class="sbox ">{{resume.skills.skill8}} </div>
+                <div class="sbox ">{{resume.skills.skill9}} </div>
+                <div class="sbox ">{{resume.skills.skill10}} </div>
+              </div>
+                </div>
+                
+  
+          </div>
+          <br><br>
+          <div class=" rcont1">
+            <div class="language">
+            <h5 class="title1">LANGUAGES</h5>
+          <h6>{{ resume.languages.lang1.name }}</h6>
+          <p>{{ resume.languages.lang1.level }}</p>
+          <h6>{{ resume.languages.lang2.name }}</h6>
+          <p>{{ resume.languages.lang2.level }}</p>
+          <h6>{{ resume.languages.lang3.name }}</h6>
+          <p>{{ resume.languages.lang3.level }}</p>
+          <h6>{{ resume.languages.lang4.name }}</h6>
+          <p>{{ resume.languages.lang4.level }}</p>
+        </div>
+      </div><br><br>
+      <div class="interest rcont1">
+        <h5 class="title">INTEREST</h5>
+        <div class="box">{{resume.interest.interest1}}</div>
+        <div class="row ibox"><div class="box">{{resume.interest.interest2}}</div>
+        <div class="box ibox">{{resume.interest.interest3}}</div></div>
+        <div class="box">{{resume.interest.interest4}}</div>
+      </div>
+            </div>
+            <div class="col-8">
+             
+                <h5 class="title1">EDUCATION</h5>
+                <div class="education1">
+                  <h5 class="subtitle1">{{ resume.education.ug.degree }}</h5>
+                  <h5 class="subtitle2">{{ resume.education.ug.institute }}</h5>
+                  <div class="course row">
+                    <div class="col-5">
+                      {{ resume.education.ug.startdate }} -
+                      {{ resume.education.ug.enddate }}
+                    </div>
+                    <div class="col-7 end">CGPA - {{ resume.education.ug.cgpa }}</div>
+                  </div>
+                </div>
+                
+          <div class="education2">
+            <h5 class="subtitle1">{{ resume.education.hsc.degree }}</h5>
+            <h5 class="subtitle2">{{ resume.education.hsc.institute }}</h5>
+            <div class="course row">
+              <div class="col-5">
+                {{ resume.education.hsc.startdate }} -
+                {{ resume.education.hsc.enddate }}
+              </div>
+              <div class="col-7 end">
+                {{ resume.education.hsc.percentage }}                                      
+              </div>
+            </div>
+          </div>
+
+          <div class="education3">
+            <h5 class="subtitle1">{{ resume.education.sslc.degree }}</h5>
+            <h5 class="subtitle2">{{ resume.education.sslc.institute }}</h5>
+            <div class="course row">
+              <div class="col-5">
+                {{ resume.education.sslc.startdate }} -
+                {{ resume.education.sslc.enddate }}
+              </div>
+              <div class="col-7 end">
+                {{ resume.education.sslc.percentage }}                                      
+              </div>
+            </div>
+          </div>
+         
+            
+            <div class="work exp">
+              <h5 class="title">WORK EXPERIENCE</h5>
+              <h5 class="subtitle1">{{ resume.work.company }}</h5>
+              <h5 class="subtitle2">{{ resume.work.designation }}</h5>
+              <p>
+                {{ resume.work.startdate }} -
+                {{ resume.work.enddate }}
+              </p>
+              
+          </div>
+          
+            <div class="projects">
+              <h5 class="title">PROJECTS</h5>
+              <h5 class="subtitle2">{{ resume.projects.project1.title }}</h5>
+              <ul>
+                <li>{{ resume.projects.project1.desc }}</li>
+              
+              </ul>
+              <h5 class="subtitle2">{{ resume.projects.project2.title }}</h5>
+              <ul>
+                <li>{{ resume.projects.project2.desc }}</li>
+             
+              </ul>
+            </div>
+            <div class="certifications">
+              <h5 class="title">CERTIFICATIONS</h5>
+              <h5 class="subtitle2">
+                {{ resume.certificates.certificate1.name }} ({{
+                  resume.certificates.certificate1.date
+                }}
+                )
+              </h5>
+    
+              <h5 class="subtitle2">
+                {{ resume.certificates.certificate2.name }} ({{
+                  resume.certificates.certificate2.date
+                }}
+                )
+              </h5>
+              <h5 class="subtitle3">
+                {{ resume.certificates.certificate3.name }} ({{
+                  resume.certificates.certificate3.date
+                }}
+                )
+              </h5>
+            </div>
+            
+            
+            <div class="achievements">
+              <h5 class="title">ACHIEVEMENTS</h5>
+              <h5 class="subtitle2">{{ resume.achievements.achievement1.name }}</h5>
+              <p>{{ resume.achievements.achievement1.description }}</p>
+              <h5 class="subtitle2">{{ resume.achievements.achievement2.name }}</h5>
+              <p>{{ resume.achievements.achievement2.description }}</p>
+              <h5 class="subtitle2">{{ resume.achievements.achievement3.name }}</h5>
+              <p>{{ resume.achievements.achievement3.description }}</p>
+              <h5 class="subtitle2">{{ resume.achievements.achievement4.name }}</h5>
+              <p>{{ resume.achievements.achievement4.description }}</p>
+            </div>
+            
+    
+            
+</div>
+        </div>
+
+
+
+
+
+
+
+
+
+

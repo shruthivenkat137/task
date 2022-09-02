@@ -1,0 +1,129 @@
+{
+    "name": "V Shruthi Seethalakshmi",
+    "jobTitle": "Full Stack Developer",
+    "about":"Self assured, witty and highly work-driven professional ,Passionate about Designing and Problem solving with a focus to learn new skills. Thrives to work in a fast-paced environment that provides consistent opportunities for growth.",
+    "contact": {
+        "email": "shruthivenkat137@gmail.com",
+        "location": "Chennai,India",
+        "github": "github.com/shruthivenkat137",
+        "mobile": "+91 8778133120",
+        "linkedin": "linkedin.com/in/shruthivenkat137"
+        
+      },
+      "skills":{
+        "skill1":"Python",
+        "skill2":"HTML",
+        "skill3":"CSS",
+        "skill4":"Bootstrap",
+        "skill5":"Java",
+        "skill6":"Angular",
+        "skill7":"Spring boot",
+        "skill8":"MySql",
+        "skill9":"JavaScript",
+        "skill10":"UI/UX"
+      },
+      "languages": {
+        "lang1": {
+          "name": "English",
+    
+          "level": "Full Professional Proficiency"
+        },
+        "lang2": {
+          "name": "Tamil",
+          "level": "Native or Bilingual Proficiency"
+        },
+        "lang3": {
+          "name": "Hindi",
+          "level": "Elementary Proficiency"
+        },
+        "lang4": {
+            "name": "French",
+            "level": "Elementary Proficiency"
+          }
+      },
+      "interest":{
+        "interest1":"Pencil Sketching",
+        "interest2":"Reading",
+        "interest3":"Music",
+        "interest4":"Travel"
+      },
+      "education": {
+        "ug": {
+          "degree": "Bachelor of Technology-Information Technology",
+          "institute": "KCG College Of Technology",
+          "startdate": "08/2018",
+          "enddate": "05/2022",
+          "cgpa": "8.42"
+          
+        },
+        "hsc": {
+          "degree": "Higher Secondary ",
+          "institute": "Rosary Matriculation",
+          "startdate": "06/2016",
+          "enddate": "05/2018",
+          "percentage": "77.5%"
+        },
+        "sslc" : {
+            "degree": "SSLC ",
+            "institute": "Rosary Matriculation",
+            "startdate": "06/2015",
+            "enddate": "04/2017",
+            "percentage": "90.4%"
+          }
+        },
+          "work": {
+            "company": "Virtusa",
+            "designation": "Associate Engineer Technology",
+            "startdate": "05/2022",
+            "enddate": "Present"
+      },
+    
+      "certificates": {
+        "certificate1": {
+          "name": "Visual Elements of User Interface Design",
+          "date": "09/2020"
+        },
+        "certificate2": {
+          "name": "Python-Guvi Certification",
+          "date": "01/2021"
+        },
+        "certificate3": {
+            "name": "Oracle Certified Associate",
+            "date": "11/2021"
+          }
+      },
+      "projects": {
+        "project1": {
+          "title": "PRIVATE PERMISSIONED BLOCKCHAIN BASED DIGITAL WALLET USING ENHANCED SECURITY",
+          "desc": "A Digital wallet for instant transactions using private blockchain for online payments"
+        
+        },
+        "project2": {
+          "title": "ADVANCED TOLL PARKING DIGITAL PAYMENT SYSTEM",
+          "desc": "An Enumerative progress towards parking fee by reading the QR code attested to the discrete vehicles to provide flexibility in payment"
+        
+        }
+       
+
+        
+      },
+      "achievements": {
+        "achievement1": {
+          "name": "Web Designing ",
+          "description": "Won 3rd place in a coding cum web designing contest held at KCG College Of Technology."
+        },
+        "achievement2": {
+          "name": "Virtusa-Jatayu",
+          "description": "Prototyped an Advanced Digital Parking Toll Collection System and got selected as one among the TOP 25 teams in the competition conducted by virtusa."
+        },
+        "achievement3": {
+            "name": "Stepathon 9",
+            "description": "Level Reached 9.8"
+          },
+          "achievement4": {
+            "name": "Business English Certificate",
+            "description": "B2 LEVEL"
+          }
+
+      }
+    }
