@@ -9,12 +9,12 @@
     margin-top: 2%;
     margin-left: 2.5%;
     
-    background-color: rgb(32, 42, 78);
+    background-color: rgb(50, 57, 80);
     color: white;
 }
 
 .about{
-    background-color: rgb(32, 42, 78);
+    background-color: rgb(50, 57, 80);
     color: white;
     
 }
@@ -29,17 +29,14 @@
     margin-top: 1%;
     margin-right: 25%;
 }
-.cont3{
-    margin-bottom: 50%;
-    margin-left: 50%;
-    padding: 3px 10px;
-}
+
 .title1{
     font-weight: bold;
 }
 .title{
     font-weight: bold;
     margin-top: 5%;
+    color: rgb(50, 57, 80);
 }
 .subtitle1{
     font-weight: bold;
@@ -47,16 +44,13 @@
 }
 
 .bg{
-    background-color: rgb(225, 237, 237);
+    background-color: rgb(50, 57, 80);
 }
 
 .end{
     text-align: end;
 }
-.endpercentage{
-    text-align: end;
-    margin-right: 30%
-}
+
 .box{
     border:1px solid;
     border-radius: 5px;
